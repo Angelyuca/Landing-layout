@@ -1,0 +1,137 @@
+.dp-wrap {
+    margin: 0 auto;
+    position: relative;
+    perspective: 1000px;
+    height: 100%;
+}
+
+.dp-slider {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.dp-slider div {
+    transform-style: preserve-3d;
+}
+
+.dp_item {
+    display: block;
+    position: absolute;
+    transition: transform 1.2s;
+}
+
+.dp-img img {
+    border-left: 1px solid #fff;
+}
+
+#dp-slider .dp_item:first-child {
+    z-index: 10 !important;
+    transform: rotateY(0deg) translateX(0px) !important;
+}
+
+.dp_item[data-position="2"] {
+    z-index: 9;
+    transform: rotateY(0deg) translateX(7%) scale(0.92);
+}
+
+.dp_item[data-position="3"] {
+    z-index: 8;
+    transform: rotateY(0deg) translateX(14%) scale(0.84);
+}
+
+.dp_item[data-position="4"] {
+    z-index: 7;
+    transform: rotateY(0deg) translateX(21%) scale(0.76);
+}
+
+/*мобильная версия*/
+.owl-stage-outer:after {
+    height: 100%;
+    width: 15%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: black;
+    content: '.';
+    color: transparent;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+.owl-stage-outer:before {
+    height: 100%;
+    width: 15%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: black;
+    content: '.';
+    color: transparent;
+    z-index: 2;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+}
+
+.owl-dot span{
+    width: 8px!important;
+    height: 8px!important;
+    margin: 5px 4px!important;
+    background: #a3d084 !important;
+}
+
+.owl-dots > .active span{
+    background: #47A209!important;
+}
+
+
+/*второй слайдер*/
+.owl-item p{
+    display: none;
+    width: auto;
+}
+
+.active{
+    width: auto!important;
+}
+
+.center p{
+    display: block;
+    width: 250px;
+}
+
+/*.slider-block-properties > .owl-carousel > .owl-stage-outer > .owl-stage > .center > .property{*/
+/*}*/
+
+
+/*третий слайдер*/
+
+
+.slick-dots button::before{
+    font-size: 8px!important;
+    height: 8px!important;
+    color: #a3d084 !important;
+    opacity: 1!important;
+}
+
+.slick-active button::before{
+    color: #47A209!important;
+}
+
+
+/*слайдер риски*/
+.slider-risk > .slick-dots{
+    margin-top: -40px;
+    position: unset;
+}
+
+.slider-risk > .slick-dots button::before{
+    font-size: 8px!important;
+    height: 8px!important;
+    color: #ffffff !important;
+    opacity: 0.5!important;
+}
+
+.slider-risk > .slick-dots > .slick-active button::before{
+     color: #ffffff!important;
+    opacity: 1!important;
+ }
+

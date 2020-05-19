@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css.map">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.svg">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/readmore-js@2.2.1/readmore.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-product.css">
+    <link rel="stylesheet" href="style-info.css">
+    <link rel="stylesheet" href="mobile_version/style-mobile-header.css">
+    <link rel="stylesheet" href="mobile_version/style-mobile-about.css">
+    <link rel="stylesheet" href="mobile_version/style-mobile-product.css">
+    <link rel="stylesheet" href="mobile_version/style-mobile-info.css">
+    <link rel="stylesheet" href="slider/slider-style.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+<div class="popup container-fluid">
+    <div class="panel-mobile-popup">
+        <img id="back" alt="back" src="images/mobile_version/icon-arrow-left.png">
+        <img alt="Сладости" width="130px" src="images/header/logo.png">
+        <div style="width: 24px"></div>
+    </div>
+    <ul class="menu-mobile-version">
+        <li><a href="#mv-about">О нас</a></li>
+        <li><a href="#products">Продукт</a></li>
+        <li><a href="#mv-economy">Экономика</a></li>
+        <li><a href="#mv-risk">Риски</a></li>
+        <li><a href="">Условия</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="#contact">Контакты</a></li>
+    </ul>
+    <div class="mobile-version-header-block-phone">
+        <img src="images/header/icon-viber.png" alt="Вайбер">
+        <span class="mobile-version-header-phone">+38 (050) 123-45-67</span>
+    </div>
+    <div class="mv-block-button-phone">
+        <button class="mv-button-phone">Заказать звонок</button>
+    </div>
+    <div class="block-social">
+        <span><a class="instagram" href="#">Instagram</a><img alt="instagram"
+                                                              src="images\mobile_version\icon-instagram.png"></span>
+        <span><a class="facebook" href="#">Facebook</a><img alt="facebook"
+                                                            src="images\mobile_version\icon-facebook.png"></span>
+    </div>
+</div>
+
+<div class="js-fade">
+    <div class="popup-phone">
+        <div class="block-close">
+            <button class="close close-popup">&times;</button>
+        </div>
+        <form class="form">
+            <p class="title-form">Обратный звонок</p>
+            <p class="text-form">Для совершения обратного звонка<br> укажите Ваше имя и номер телефона.</p>
+            <p class="text-name-form">Введите имя и фамилию:</p>
+            <input class="input-form" placeholder="Фимилия Имя">
+            <p class="text-phone-form">Введите номер телефона:</p>
+            <input id="telephone" class="input-form" placeholder="+38 (0__) ___-__-__">
+            <div class="eula">Нажимая кнопку подтвердить, вы также даёте согласие на обработку Ваших персональных
+                данных
+            </div>
+            <button class="button-order">Заказать звонок</button>
+        </form>
+    </div>
+</div>
+
+<div class="wrap">
+    <header>
+
+        <div class="panel">
+            <div class="block-logo"><img alt="Сладости" width="150px" src="images/header/logo.png"></div>
+            <nav class="menu">
+                <ul class="list">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#products">Продукт</a></li>
+                    <li><a href="#economy">Экономика</a></li>
+                    <li><a href="#risk">Риски</a></li>
+                    <li><a href="">Условия</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-block-phone">
+                <img src="images/header/icon-viber.png" alt="Вайбер">
+                <span class="header-phone">+38 (050) 123-45-67</span>
+            </div>
+        </div>
+
+
+        <!-- панель в мобильной версии -->
+        <div class="panel-mobile">
+            <img id="menu-button" alt="menu" src="images/mobile_version/menu.png">
+            <img alt="Сладости" width="130px" src="images/header/logo.png">
+            <img id="mv-icon-phone" alt="phone" src="images/mobile_version/phone-call.png">
+        </div>
+
+        <div class="container-fluid">
+            <div class="wrapper">
+
+
+                <div class="block-button-phone">
+                    <button class="button-phone">Заказать звонок</button>
+                </div>
+
+                <div class="row header-content">
+                    <div class="col-6">
+                        <img class="frutini-logo" alt="Конфеты" src="images/header/f-logo.png">
+                        <h1 class="text-header">Натуральные конфеты<br>от производителя</h1>
+                        <button class="header-button-order">Заказать продукцию</button>
+                    </div>
+                    <div class="col-6 block-image-header">
+                        <img class="image-header" alt="Конфеты" src="images/header/img.png">
+                    </div>
+                </div>
+
+
+                <div class="row mobile-header-content">
+                    <img class="image-header" alt="Конфеты" src="images/header/img.png">
+                    <img class="frutini-logo" alt="Конфеты" src="images/header/f-logo.png">
+                    <h1 class="text-header">Натуральные конфеты от производителя</h1>
+                    <button class="header-button-order">Заказать продукцию</button>
+                </div>
+            </div>
+            <div class="mouse">
+                <img class="mouse-icon" alt="mouse" src="images/header/icon-mouse.png">
+                <img class="pointer-icon" alt="pointer" src="images/mobile_version/icon-chevrons-down.png">
+            </div>
+        </div>
+    </header>
+
+    <div id="about" class="container-fluid block-about">
+        <div class="row about-h3"><h3 class="about-inscription">О нас</h3></div>
+        <div class="row about">
+            <div class="col-6 about-text">
+                <p>Конфеты — разнородные сахарные или шоколадные изделия, к которым
+                    относятся засахаренные фрукты, пралине. Как правило, конфеты содержат 60-75 % сахара. Делятся на
+                    глазированные, неглазированные и конфеты с шоколадной начинкой.</p>
+                <p>Термин «конфеты» происходит из профессионального жаргона аптекарей, в XVI веке обозначавших так
+                    засахаренные или переработанные в варенье фрукты, используемые в лечебных целях. Впоследствии термин
+                    стал обозначать более широкий круг кондитерских изделий из разных ингредиентов.</p>
+                <p>Первые конфеты в том понимании, в котором мы знаем их сегодня, приготовил Плесси Пралин в 1671 году.
+                    Для маркиза он подал шоколадные конфеты с начинкой из тертых орехов, которые назвал «пралине».</p>
+                <p>В 18 веке в Париже кондитерское дело приобретает черты искусства. Можно экспериментировать не только
+                    с составом конфет, но и с формами, делая из них настоящие произведения искусства.</p>
+            </div>
+            <div class="col-6 block-slider">
+                <div class="container" style="max-width: 1400px; margin: 0 auto;">
+                    <div id="slider">
+                        <div class="dp-wrap">
+                            <div id="dp-slider">
+                                <div class="dp_item" data-class="1" data-position="1">
+                                    <div class="dp-img">
+                                        <img src="images/img-01.jpg" width="552px" height="360px" alt="investing">
+                                    </div>
+                                </div>
+
+                                <div class="dp_item" data-class="2" data-position="2">
+                                    <div class="dp-img">
+                                        <img src="images/img-02.jpg" width="552px" height="360px" alt="investing">
+                                    </div>
+                                </div>
+
+                                <div class="dp_item" data-class="3" data-position="3">
+                                    <div class="dp-img">
+                                        <img src="images/img-03.jpg" width="552px" height="360px" alt="investing">
+                                    </div>
+                                </div>
+
+                                <div class="dp_item" data-class="4" data-position="4">
+                                    <div class="dp-img">
+                                        <img src="images/img-04.jpg" width="552px" height="360px" alt="investing">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--мобильная версия -->
+    <div id="mv-about" class="mv-block-about">
+        <div class="about-h3"><h3 class="about-inscription">О нас</h3></div>
+        <div class="owl-carousel owl-theme">
+            <img src="images/img-01.jpg" width="304px" height="196px" alt="investing">
+            <img src="images/img-02.jpg" width="304px" height="196px" alt="investing">
+            <img src="images/img-03.jpg" width="304px" height="196px" alt="investing">
+            <img src="images/img-04.jpg" width="304px" height="196px" alt="investing">
+        </div>
+        <div class="container-fluid">
+            <div class="about-text">
+                <article style="overflow: hidden">
+                    <p>Конфеты — разнородные сахарные или шоколадные изделия, к которым
+                        относятся засахаренные фрукты, пралине. Как правило, конфеты содержат 60-75 % сахара. Делятся на
+                        глазированные, неглазированные и конфеты с шоколадной начинкой.</p>
+                    <p>Термин «конфеты» происходит из профессионального жаргона аптекарей, в XVI веке обозначавших так
+                        засахаренные или переработанные в варенье фрукты, используемые в лечебных целях. Впоследствии
+                        термин
+                        стал обозначать более широкий круг кондитерских изделий из разных ингредиентов.</p>
+                    <p>Первые конфеты в том понимании, в котором мы знаем их сегодня, приготовил Плесси Пралин в 1671
+                        году.
+                        Для маркиза он подал шоколадные конфеты с начинкой из тертых орехов, которые назвал
+                        «пралине».</p>
+                    <p>В 18 веке в Париже кондитерское дело приобретает черты искусства. Можно экспериментировать не
+                        только
+                        с составом конфет, но и с формами, делая из них настоящие произведения искусства.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div id="products" class="container-fluid block-product">
+        <h3 class="product-inscription">Продукт</h3>
+        <div class="centering">
+            <p class="product-text">
+                Для создания конфет, отборные фрукты, ягоды и цитрусовые взбиваются в пюре, которое
+                далее смешивается с сахаром и шоколадом, и формируется в готовые изделия.
+            </p>
+        </div>
+
+        <div class="block-properties">
+            <div class="property"><img alt="icon" src="images/product/icon-medal.png">
+                <p class="text-property">Сертификация соответствия стандартам <b>ДСТУ, СЕС.</b></p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-diet.png">
+                <p class="text-property">Богатый витаминами продукт без консервантов и красителей, лучшая
+                    альтернатива обычным
+                    конфетам, отлично подойдёт для детей.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-biology.png">
+                <p class="text-property">Благодаря современной технологии обработки продукта, удалось сохранить
+                    все
+                    питательные вещества, делающие это лакомство бесценным для здоровья.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-molecular.png">
+                <p class="text-property">Важным компонентом состава является клетчатка, содержащаяся во
+                    фруктово-
+                    ягодном компоненте. Не содержит глютен.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-time.png">
+                <p class="text-property">Длительный срок годности за счет качественных ингредиентов.</p></div>
+        </div>
+    </div>
+
+    <div class="slider-block-properties">
+        <div class="owl-carousel owl-theme">
+            <div class="property"><img alt="icon" src="images/product/icon-medal.png">
+                <p class="text-property">Сертификация соответствия стандартам ДСТУ, СЕС.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-diet.png">
+                <p class="text-property">Богатый витаминами продукт без консервантов и красителей, лучшая
+                    альтернатива обычным конфетам, отлично подойдёт для детей.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-biology.png">
+                <p class="text-property">Благодаря современной технологии обработки продукта, удалось
+                    сохранить все
+                    питательные вещества, делающие это лакомство бесценным для здоровья.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-molecular.png">
+                <p class="text-property">Важным компонентом состава является клетчатка, содержащаяся во
+                    фруктово-
+                    ягодном компоненте. Не содержит глютен.</p></div>
+            <div class="property"><img alt="icon" src="images/product/icon-time.png">
+                <p class="text-property">Длительный срок годности за счет качественных ингредиентов.</p></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="block-button-product">
+            <button class="button-product">Заказать продукцию</button>
+        </div>
+        <h3 class="product-inscription">Асортимент</h3>
+        <div class="slider-products-wrap">
+            <ul class="slider-products">
+                <li class="card-wrap">
+                    <div class="card">
+                        <div class="image-product"><img alt="сладкое" src="images/product/img(1).png"></div>
+                        <h4 class="name-product" style="color: #CF2826;">Клубника</h4>
+                        <div class="feature-field">
+                            <span class="denomination">Состав:</span><span>Клубника, сахар</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Вес:</span><span>10г <span
+                                style="color:#bababa">+/-2г</span></span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Пищ.ценность:</span><span>336 кКал</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Белки:</span><span>0,8г</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Углеводы:</span><span>89г</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="card-wrap">
+                    <div class="card">
+                        <div class="image-product"><img alt="сладкое" src="images/product/img(1).png"></div>
+                        <h4 class="name-product" style="color: #276F39;;">Яблоко</h4>
+                        <div class="feature-field">
+                            <span class="denomination">Состав:</span><span>Яблоко, сахар</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Вес:</span><span>10г <span
+                                style="color:#bababa">+/-2г</span></span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Пищ.ценность:</span><span>336 кКал</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Белки:</span><span>0,8г</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Углеводы:</span><span>89г</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="card-wrap">
+                    <div class="card">
+                        <div class="image-product"><img alt="сладкое" src="images/product/img(1).png"></div>
+                        <h4 class="name-product" style="color: #DFC900;">Банан</h4>
+                        <div class="feature-field">
+                            <span class="denomination">Состав:</span><span>Банан, сахар</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Вес:</span><span>10г <span
+                                style="color:#bababa">+/-2г</span></span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Пищ.ценность:</span><span>336 кКал</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Белки:</span><span>0,8г</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Углеводы:</span><span>89г</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="card-wrap">
+                    <div class="card">
+                        <div class="image-product"><img alt="сладкое" src="images/product/img(1).png"></div>
+                        <h4 class="name-product" style="color: #D80055;">Малина</h4>
+                        <div class="feature-field">
+                            <span class="denomination">Состав:</span><span>Малина, сахар</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Вес:</span><span>10г <span
+                                style="color:#bababa">+/-2г</span></span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Пищ.ценность:</span><span>336 кКал</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Белки:</span><span>0,8г</span>
+                        </div>
+                        <div class="feature-field">
+                            <span class="denomination">Углеводы:</span><span>89г</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="economy" class="economy">
+        <h3 class="economy-name">Экономическа выгода изделия</h3>
+        <div class="economy-block">
+            <div class="column" style="background-image: url('images/product/img.jpg');">
+                <div></div>
+                <h4>60%</h4>
+                <div>
+                    <span>Маржинальность 60%+</span>
+                    <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                </div>
+            </div>
+            <div class="column" style="background-image: url('images/product/img(1).jpg');">
+                <div></div>
+                <h4>300</h4>
+                <div>
+                    <span>300 конфет</span>
+                    <p>В среднем, 300 конфет продает, каждое заведение в месяц, при наличии декорации</p>
+                </div>
+            </div>
+            <div class="column" style="background-image: url('images/product/img(2).jpg');">
+                <div></div>
+                <h4>2</h4>
+                <div>
+                    <span>2 тысячи</span>
+                    <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                </div>
+            </div>
+            <div class="column" style="background-image: url('images/product/img(3).jpg');">
+                <div></div>
+                <h4>1</h4>
+                <div>
+                    <span>1 миллион</span>
+                    <p>Более 1 миллиона конфет производится ежемесячно</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--    мобильная версия-->
+    <div id="mv-economy" class="mv-economy">
+        <h3 class="economy-name">Экономическа выгода изделия</h3>
+        <ul class="owl-carousel owl-theme slider-economy">
+            <li>
+                <div class="economy-wrap">
+                    <h4>60%</h4>
+                    <div>
+                        <span style="background: none">Маржинальность 60%+</span>
+                        <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="economy-wrap">
+                    <h4>60%</h4>
+                    <div>
+                        <span>Маржинальность 60%+</span>
+                        <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="economy-wrap">
+                    <h4>60%</h4>
+                    <div>
+                        <span>Маржинальность 60%+</span>
+                        <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="economy-wrap">
+                    <h4>60%</h4>
+                    <div>
+                        <span>Маржинальность 60%+</span>
+                        <p>Более 60 процентов наценки для розничных продавцов конфеты</p>
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="risk" class="container-fluid container-risk">
+        <div class="row about-h3"><h3 class="about-inscription">Риски</h3></div>
+        <div class="row about test">
+            <div class="col-6 wrap-risk">
+                <p>Мы сделали отличный продукт, который продается без каких-либо сомнений. И вот почему:</p>
+                <div class="block-risks">
+                    <div class="column-risk">
+                        <div class="risk">
+                            <h4 class="name-risk">01. Долговечность</h4>
+                            <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                        </div>
+                        <div class="risk">
+                            <h4 class="name-risk">03. Дизайн упаковки</h4>
+                            <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                        </div>
+                        <div class="risk">
+                            <h4 class="name-risk">05. Фирменный стиль</h4>
+                            <p>Декорация привлекает массу внимания и позволяет продавать хороший объем
+                                продукции.</p>
+                        </div>
+                    </div>
+                    <div class="column-risk">
+                        <div class="risk">
+                            <h4 class="name-risk">02. Стойкость</h4>
+                            <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                        </div>
+                        <div class="risk">
+                            <h4 class="name-risk">04. Технологичность</h4>
+                            <p>Вес и цена идеально подходят для кофеен, продуктовых магазинов, лавок
+                                эко-продукции,
+                                детских заведений, аптек и не только.</p>
+                        </div>
+                    </div>
+                </div>
+                <p>Будьте уверены, наш продукт приносит заведениям прибыль. Ознакомиться с отзывами можно в
+                    нашем
+                    инстаграме.</p>
+            </div>
+            <div class="col-6 risk-block-img">
+                <div class="slider-risk">
+                    <div class="wrap-slider-risk">
+                        <div class="risk-image"><img alt="img" src="images/img-02.jpg"></div>
+                    </div>
+                    <div class="wrap-slider-risk">
+                        <div class="risk-image"><img alt="img" src="images/img-03.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    мобильная версия-->
+    <div id="mv-risk" class="container-fluid mv-container-risk">
+        <div class="center-risk">
+            <h3 class="about-inscription">Риски</h3>
+            <p>Мы сделали отличный продукт, который продается без каких-либо сомнений. И вот почему:</p>
+        </div>
+        <ul class="mv-slider-risk">
+            <li>
+                <div class="mv-wrap-risk">
+                    <div class="card-risk">
+                        <h4>01. Долговечность</h4>
+                        <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="mv-wrap-risk">
+                    <div class="card-risk">
+                        <h4>01. Долговечность</h4>
+                        <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="mv-wrap-risk">
+                    <div class="card-risk">
+                        <h4>01. Долговечность</h4>
+                        <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="mv-wrap-risk">
+                    <div class="card-risk">
+                        <h4>01. Долговечность</h4>
+                        <p>Срок годности продукта 6 мес. Срок реализации партии составляет 1 мес.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid container-client">
+        <h3 class="product-inscription">Наши клиенты</h3>
+        <ul class="block-client">
+            <li>
+                <div class="client">
+                    <img alt="client" width="100%" src="images/info/img(5).jpg">
+                    <h4>Кофейни</h4>
+                </div>
+            </li>
+            <li>
+                <div class="client">
+                    <img alt="client" width="100%" src="images/info/img(6).jpg">
+                    <h4>Детские заведения</h4>
+                </div>
+            </li>
+            <li>
+                <div class="client">
+                    <img alt="client" width="100%" src="images/info/img(7).jpg">
+                    <h4>Магазины</h4>
+                </div>
+            </li>
+            <li>
+                <div class="client">
+                    <img alt="client" width="100%" src="images/info/img(8).jpg">
+                    <h4>Аптеки</h4>
+                </div>
+            </li>
+        </ul>
+        <div class="mv-block-client">
+            <ul class="owl-carousel owl-theme">
+                <li>
+                    <div class="client">
+                        <img alt="client" width="100%" src="images/info/img(5).jpg">
+                        <h4>Кофейни</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="client">
+                        <img alt="client" width="100%" src="images/info/img(6).jpg">
+                        <h4>Детские заведения</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="client">
+                        <img alt="client" width="100%" src="images/info/img(7).jpg">
+                        <h4>Магазины</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="client">
+                        <img alt="client" width="100%" src="images/info/img(8).jpg">
+                        <h4>Аптеки</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contact" class="block-contacts">
+        <h2>Вы всё еще не уверены?</h2>
+        <p>Убедитесь в качестве нашей работы и продукции в социальных сетях:</p>
+        <div class="social">
+        <span><a class="instagram" href="#">Instagram</a><img alt="instagram"
+                                                              src="images\mobile_version\icon-instagram.png"></span>
+            <span><a class="facebook" href="#">Facebook</a><img alt="facebook"
+                                                                src="images\mobile_version\icon-facebook.png"></span>
+        </div>
+    </div>
+
+    <div class="block-address">
+        <div class="address">
+            <h4>Адрес:</h4>
+            <p>г. Киев, Хрещатик 20-22</p>
+            <h4>Телефон:</h4>
+            <div class="footer-block-phone">
+                <p class="footer-phone">+38 (050) 123-45-67</p>
+                <img src="images/header/icon-viber.png" alt="Вайбер">
+            </div>
+            <button class="footer-button-order">Заказать продукцию</button>
+        </div>
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>(function () {
+                var setting = {
+                    "height": 336,
+                    "width": 1100,
+                    "zoom": 17,
+                    "queryString": "вулиця Хрещатик, 20-22, Киев, Украина",
+                    "place_id": "ChIJoxyCHVHO1EARfn3PQYMRsyc",
+                    "satellite": false,
+                    "centerCoord": [50.44992571923006, 30.52306290000001],
+                    "cid": "0x27b3118341cf7d7e",
+                    "lang": "ru",
+                    "cityUrl": "/ukraine/kiev",
+                    "cityAnchorText": "Карта [CITY1], Киевская область, Украина",
+                    "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                    "embed_id": "211905"
+                };
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=211905';
+                s.async = true;
+                s.onload = function (e) {
+                    window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+            })();</script>
+            <a href="https://1map.com/ru/map-embed">1 Map</a></div>
+    </div>
+    <footer>
+        <p class="view">© Copyright</p>
+        <p>KONFETI</p>
+        <p class="view">All rights reserved</p>
+        <p class="mv-view">© Copyright - All rights reserved.</p>
+    </footer>
+
+
+</div>
+</body>
+<script src="jquery.maskedinput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="index.js"></script>
+<script src="slider/slider.js"></script>
+</html>

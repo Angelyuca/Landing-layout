@@ -1,0 +1,62 @@
+.block-about{
+    display: block;
+}
+
+.mv-block-about{
+    display: none;
+}
+
+.about-h3{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.about{
+    margin-left: 90px;
+    min-height: 370px;
+}
+
+.about-inscription{
+    font-family: "Marck Script";
+    font-size: 64px;
+    line-height: 80px;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    padding-left: 0!important;
+}
+
+.about p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #232323;
+}
+
+.block-slider{
+    padding-left: 0!important;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .about-h3{
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+
+    .about{
+        margin-left: 70px;
+    }
+
+    .block-slider{
+        margin-left: -35px!important;
+    }
+
+    .about-text{
+        padding-right: 50px!important;
+    }
+}
