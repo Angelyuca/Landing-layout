@@ -152,7 +152,7 @@
 }
 
 .address{
-    padding-top: 16px;
+    padding-top: 10px;
     padding-left: 95px;
     width: 485px;
     height: 336px;
@@ -160,6 +160,7 @@
 }
 
 .address h4{
+    margin-top: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -169,6 +170,8 @@
 }
 
 .address p{
+    margin-bottom: 0;
+    margin-top: 0;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -213,7 +216,7 @@ footer{
     height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 footer p{
